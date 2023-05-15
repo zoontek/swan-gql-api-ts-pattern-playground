@@ -1,0 +1,19 @@
+mutation AddCard($input: AddCardInput!) {
+  addCard(input: $input) {
+    __typename
+    ... on AddCardSuccessPayload {
+      card {
+        id
+      }
+    }
+    ... on Rejection {
+      message
+    }
+    ... on ValidationRejection {
+      fields {
+        code
+        path
+      }
+    }
+  }
+}

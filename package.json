@@ -1,0 +1,31 @@
+{
+  "name": "swan-gql-api-ts-pattern-playground",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "download-schema": "tsx scripts/downloadSchema.ts",
+    "codegen": "graphql-codegen -c scripts/codegen.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "prettier": {
+    "trailingComma": "all"
+  },
+  "dependencies": {
+    "graphql": "16.6.0",
+    "graphql-request": "5.1.0",
+    "graphql-tag": "2.12.6",
+    "ts-pattern": "4.3.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^3.3.1",
+    "@graphql-codegen/typescript": "^3.0.4",
+    "@graphql-codegen/typescript-graphql-request": "^4.5.9",
+    "@graphql-codegen/typescript-operations": "^3.0.4",
+    "@types/node": "^20.1.4",
+    "pathe": "^1.1.0",
+    "prettier": "^2.8.8",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  }
+}
