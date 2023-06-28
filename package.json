@@ -12,20 +12,20 @@
     "trailingComma": "all"
   },
   "dependencies": {
-    "graphql": "16.6.0",
-    "graphql-request": "5.1.0",
+    "graphql": "16.7.1",
+    "graphql-request": "6.1.0",
     "graphql-tag": "2.12.6",
-    "ts-pattern": "4.3.0"
+    "ts-pattern": "5.0.1"
   },
   "devDependencies": {
-    "@graphql-codegen/cli": "^3.3.1",
-    "@graphql-codegen/typescript": "^3.0.4",
-    "@graphql-codegen/typescript-graphql-request": "^4.5.9",
-    "@graphql-codegen/typescript-operations": "^3.0.4",
-    "@types/node": "^20.1.4",
-    "pathe": "^1.1.0",
+    "@graphql-codegen/cli": "^4.0.1",
+    "@graphql-codegen/typescript": "^4.0.1",
+    "@graphql-codegen/typescript-graphql-request": "^5.0.0",
+    "@graphql-codegen/typescript-operations": "^4.0.1",
+    "@types/node": "^20.3.2",
+    "pathe": "^1.1.1",
     "prettier": "^2.8.8",
     "tsx": "^3.12.7",
-    "typescript": "^5.0.4"
+    "typescript": "^5.1.5"
   }
 }

@@ -11,7 +11,7 @@ fetch("https://api.swan.io/live-partner/graphql", {
   .then((json) => buildClientSchema(json.data))
   .then((schema) => printSchema(schema))
   .then((schema) =>
-    writeFile(resolve(__dirname, "../src/graphql/schema.gql"), schema, "utf-8")
+    writeFile(resolve(__dirname, "../src/graphql/schema.gql"), schema, "utf-8"),
   )
   .catch((err) => {
     console.error(err);

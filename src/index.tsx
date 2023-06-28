@@ -3,7 +3,7 @@ import { getSdk } from "./graphql";
 import { match } from "ts-pattern";
 
 const swanSdk = getSdk(
-  new GraphQLClient("https://api.swan.io/live-partner/graphql")
+  new GraphQLClient("https://api.swan.io/live-partner/graphql"),
 );
 
 swanSdk
