@@ -1,5 +1,5 @@
 import type { CodegenConfig } from "@graphql-codegen/cli";
-import { resolve } from "pathe";
+import { resolve } from "node:path";
 
 const config: CodegenConfig = {
   errorsOnly: true,

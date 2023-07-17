@@ -15,17 +15,16 @@
     "graphql": "16.7.1",
     "graphql-request": "6.1.0",
     "graphql-tag": "2.12.6",
-    "ts-pattern": "5.0.1"
+    "ts-pattern": "5.0.3"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^4.0.1",
     "@graphql-codegen/typescript": "^4.0.1",
     "@graphql-codegen/typescript-graphql-request": "^5.0.0",
     "@graphql-codegen/typescript-operations": "^4.0.1",
-    "@types/node": "^20.3.2",
-    "pathe": "^1.1.1",
+    "@types/node": "^20.4.2",
     "prettier": "^2.8.8",
     "tsx": "^3.12.7",
-    "typescript": "^5.1.5"
+    "typescript": "^5.1.6"
   }
 }

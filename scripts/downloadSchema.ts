@@ -1,6 +1,6 @@
 import { buildClientSchema, getIntrospectionQuery, printSchema } from "graphql";
 import { writeFile } from "node:fs/promises";
-import { resolve } from "pathe";
+import { resolve } from "node:path";
 
 fetch("https://api.swan.io/live-partner/graphql", {
   method: "POST",
