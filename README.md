@@ -2,7 +2,7 @@
 
 A simple playground to generate a typed SDK for the [Swan API](https://www.swan.io) and experiment pattern matching with [`ts-pattern`](https://github.com/gvergnaud/ts-pattern).
 
-📖 To consult the related article, follow [this link](https://www.swan.io/blog).
+📖 To consult the related article, follow [this link](https://www.swan.io/blog-posts/unraveling-the-magic-of-pattern-matching).
 
 ## Setup
 
